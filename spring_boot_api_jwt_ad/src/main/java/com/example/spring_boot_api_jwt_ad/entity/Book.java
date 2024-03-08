@@ -1,0 +1,1 @@
+package com.example.spring_boot_api_jwt_ad.entity;import lombok.AllArgsConstructor;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;@Data@AllArgsConstructor@NoArgsConstructor@Builderpublic class Book {    private int id;    private String bookName;    private String title;    private String author;    private String publisher;}

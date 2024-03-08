@@ -1,0 +1,1 @@
+package vn.edu.iuh.fit.entity;import jakarta.persistence.*;import lombok.*;@Entity@Table(name = "orders")@Data@NoArgsConstructor@AllArgsConstructor@Getter @Setterpublic class Order {    @Id    @GeneratedValue(strategy = GenerationType.IDENTITY)    @Column(name="order_id")    private long id;    @Column(name="price")    private double price;}
